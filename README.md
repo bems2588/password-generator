@@ -1,6 +1,6 @@
 # password-generator
 
-## Porpuse
+## Purpose
 
 This website generates radndom passwords that include lower and upper case characters, as well as numbers and symbols.
 

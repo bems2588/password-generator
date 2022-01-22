@@ -33,11 +33,7 @@ function generatePassword (lower, upper, number, symbol, length) {
 
   const typesCount = lower + upper + number + symbol;
 
-  console.log( "typesCount", typesCount);
-
   const typesArr = [{lower}, {upper}, {number}, {symbol}].filter(item => Object.values(item)[0]);
-
-  console.log("typesArr", typesArr);
 
   if(typesCount === 0) {
     return " ";
@@ -51,7 +47,10 @@ function generatePassword (lower, upper, number, symbol, length) {
       generatedPassword += randomFunc[funcName]();
     }); 
   }
- return generatedPassword;
+
+  const finalPassword = generatedPassword.slice(0, length);
+ 
+  return generatedPassword;
 
   } 
 

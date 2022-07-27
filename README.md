@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This website generates radndom passwords that include lower and upper case characters, as well as numbers and symbols.
+This website generates random passwords that include lower and upper case characters, as well as numbers and symbols.
 
 
 ## Built With
